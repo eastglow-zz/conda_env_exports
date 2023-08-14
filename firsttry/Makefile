@@ -1,5 +1,7 @@
-env_export:
-	conda env export --from-history > environment.yml
-env_import:
+flags=--from-history
+#flags=
+export:
+	conda env export ${flags} | grep -v prefix > environment.yml
+import:
 	conda env create -f environment.yml
 
