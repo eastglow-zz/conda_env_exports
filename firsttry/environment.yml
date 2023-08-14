@@ -1,4 +1,4 @@
-name: /Users/donguk/mambaforge3/envs/firsttry
+name: firsttry
 channels:
   - conda-forge
   - https://conda.software.inl.gov/public

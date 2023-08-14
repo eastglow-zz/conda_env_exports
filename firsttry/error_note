@@ -1,0 +1,3 @@
+The environment 'firsttry' is made on MacOS. So, It's dependencies are also based on MacOS, not necessarily compatible with Linux OS.
+
+For cross-plattform-workable environment, put --from-history option when exporting the environment into the yml file.
