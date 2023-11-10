@@ -1,7 +1,6 @@
-name: firsttry
+name: icapepfm
 channels:
   - conda-forge
-  - https://conda.software.inl.gov/public
 dependencies:
   - python
   - mpich
