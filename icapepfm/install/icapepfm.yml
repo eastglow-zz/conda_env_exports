@@ -1,0 +1,11 @@
+name: icapepfm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gfortran
+  - python
+  - fftw
+  - pycalphad
+  - paraview
+  - mpich
