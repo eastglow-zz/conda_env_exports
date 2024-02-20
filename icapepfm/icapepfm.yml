@@ -1,12 +1,12 @@
 name: icapepfm
 channels:
-  - https://conda.software.inl.gov/public
   - conda-forge
   - defaults
 dependencies:
-  - gfortran
-  - python
   - fftw
-  - pycalphad
-  - paraview
+  - gfortran
   - mpich
+  - paraview
+  - pycalphad
+  - python
+  - json-fortran
